@@ -1,0 +1,31 @@
+# Ambientes Virtuais (Essencial)
+.venv/
+venv/
+env/
+ENV/
+
+# Python - Arquivos compilados e cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Robot Framework - Resultados de testes
+# (Isso evita que seus relatórios locais sujem o histórico do Git)
+results/
+log.html
+report.html
+output.xml
+playwright-log.txt
+selenium-screenshot-*.png
+
+# Playwright
+# Geralmente os browsers são instalados no cache do sistema, 
+# mas caso você configure para baixar no projeto:
+.auth/
+browser-cache/
+
+# IDEs e Sistema Operacional
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
