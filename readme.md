@@ -62,13 +62,13 @@ playwright install
 **Run all tests:**
 
 ```bash
-robot tests/
+robot -d results tests/
 ```
 
 **Run a specific test:**
 
 ```bash
-robot tests/login.robot
+robot -d results tests/login.robot
 ```
 
 **Save reports in results/:**
